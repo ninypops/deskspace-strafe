@@ -1,5 +1,4 @@
-// import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
 // import components
 import Header from './components/header';
@@ -10,23 +9,21 @@ import Feature from './components/feature';
 import WhyChooseUs from './components/whyChooseUs';
 import Gallery from './components/gallery';
 import Search from './components/search';
-import Footer from './components/footer';
+// import Footer from './components/footer';
 
 function App() {
   return (
-    <div className="App">
-      <div className="container">
-        <Header />
-        <Banner />
-        <Brands />
-        <Intro />
-        <Feature />
-        <WhyChooseUs />
-        <Gallery />
-        <Search />
-        <Footer />
-      </div>
-    </div>
+    <React.Fragment>
+      <Header />
+      <Banner />
+      <Brands />
+      <Intro />
+      <Feature />
+      <WhyChooseUs />
+      <Gallery />
+      <Search />
+      {/* <Footer /> */}
+    </React.Fragment>
   );
 }
 
