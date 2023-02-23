@@ -31,7 +31,7 @@ const Banner = () => {
                         <OfficeForm className="bannerForm" />
                         </TextWrapper>
                         </Col>
-                        <Col className="imageHero d-none d-md-flex justify-content-end mb-4" xs={12} md={6}>
+                        <Col className="imageHero d-none d-md-flex justify-content-end mb-5" xs={12} md={6}>
                             <img src={heroImg} alt="DeskSpace Coworking Space" width="500" height="550" />
                         </Col>
                     </Row>
