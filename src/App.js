@@ -1,15 +1,15 @@
 import React from 'react';
 
-// import components
-import Header from './components/header';
-import Banner from './components/banner';
-import Brands from './components/brands';
-import Intro from './components/introduction';
-import Feature from './components/feature';
-import WhyChooseUs from './components/whyChooseUs';
-import Gallery from './components/gallery';
-import Search from './components/search';
-// import Footer from './components/footer';
+// import sections
+import Header from './sections/header';
+import Banner from './sections/banner';
+import Brands from './sections/brands';
+import Intro from './sections/introduction';
+import Feature from './sections/feature';
+import WhyChooseUs from './sections/whyChooseUs';
+import Gallery from './sections/gallery';
+import Search from './sections/search';
+import Footer from './sections/footer';
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
       <WhyChooseUs />
       <Gallery />
       <Search />
-      {/* <Footer /> */}
+      <Footer />
     </React.Fragment>
   );
 }

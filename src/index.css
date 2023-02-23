@@ -5,22 +5,5 @@ body {
   font-family: 'Syne', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-h1 {
-  font-size: 3rem;
-}
-
-.darkBkg {
-  background-color: #14251C;
-  color: #ffffff;
-}
-
-* {
-  border: 1px solid hotpink;
+  font-size: .8rem;
 }
